@@ -1,0 +1,505 @@
+CRITICAL - 2024-02-04 07:26:13 --> ArgumentCountError: mysqli_query() expects at least 2 arguments, 1 given
+in APPPATH\Views\welcome_message.php on line 72.
+ 1 APPPATH\Views\welcome_message.php(72): mysqli_query('SELECT * FROM result')
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\testApp\\app\\Views\\welcome_message.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH\Controllers\Home.php(35): view('welcome_message', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\testApp\\public\\index.php')
+CRITICAL - 2024-02-04 07:26:14 --> ArgumentCountError: mysqli_query() expects at least 2 arguments, 1 given
+in APPPATH\Views\welcome_message.php on line 72.
+ 1 APPPATH\Views\welcome_message.php(72): mysqli_query('SELECT * FROM result')
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\testApp\\app\\Views\\welcome_message.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH\Controllers\Home.php(35): view('welcome_message', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\testApp\\public\\index.php')
+CRITICAL - 2024-02-04 07:27:20 --> ErrorException: Undefined variable $default
+in APPPATH\Views\welcome_message.php on line 72.
+ 1 APPPATH\Views\welcome_message.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $default', 'C:\\xampp\\htdocs\\testApp\\app\\Views\\welcome_message.php', 72)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\testApp\\app\\Views\\welcome_message.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH\Controllers\Home.php(35): view('welcome_message', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\testApp\\public\\index.php')
+CRITICAL - 2024-02-04 07:27:21 --> ErrorException: Undefined variable $default
+in APPPATH\Views\welcome_message.php on line 72.
+ 1 APPPATH\Views\welcome_message.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $default', 'C:\\xampp\\htdocs\\testApp\\app\\Views\\welcome_message.php', 72)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\testApp\\app\\Views\\welcome_message.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH\Controllers\Home.php(35): view('welcome_message', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\testApp\\public\\index.php')
+CRITICAL - 2024-02-04 07:27:22 --> ErrorException: Undefined variable $default
+in APPPATH\Views\welcome_message.php on line 72.
+ 1 APPPATH\Views\welcome_message.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $default', 'C:\\xampp\\htdocs\\testApp\\app\\Views\\welcome_message.php', 72)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\testApp\\app\\Views\\welcome_message.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH\Controllers\Home.php(35): view('welcome_message', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\testApp\\public\\index.php')
+CRITICAL - 2024-02-04 08:23:29 --> ErrorException: Declaration of App\Controllers\Home::validate() must be compatible with CodeIgniter\Controller::validate($rules, array $messages = []): bool
+in APPPATH\Controllers\Home.php on line 40.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-02-04 08:24:31 --> ErrorException: Declaration of App\Controllers\Home::validate() must be compatible with CodeIgniter\Controller::validate($rules, array $messages = []): bool
+in APPPATH\Controllers\Home.php on line 40.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-02-04 08:24:32 --> ErrorException: Declaration of App\Controllers\Home::validate() must be compatible with CodeIgniter\Controller::validate($rules, array $messages = []): bool
+in APPPATH\Controllers\Home.php on line 40.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-02-04 08:24:33 --> ErrorException: Declaration of App\Controllers\Home::validate() must be compatible with CodeIgniter\Controller::validate($rules, array $messages = []): bool
+in APPPATH\Controllers\Home.php on line 40.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-02-04 08:25:19 --> ErrorException: Declaration of App\Controllers\Home::validate() must be compatible with CodeIgniter\Controller::validate($rules, array $messages = []): bool
+in APPPATH\Controllers\Home.php on line 40.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-02-04 08:25:19 --> ErrorException: Declaration of App\Controllers\Home::validate() must be compatible with CodeIgniter\Controller::validate($rules, array $messages = []): bool
+in APPPATH\Controllers\Home.php on line 40.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-02-04 08:25:20 --> ErrorException: Declaration of App\Controllers\Home::validate() must be compatible with CodeIgniter\Controller::validate($rules, array $messages = []): bool
+in APPPATH\Controllers\Home.php on line 40.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-02-04 08:25:35 --> ErrorException: Declaration of App\Controllers\Home::validate() must be compatible with CodeIgniter\Controller::validate($rules, array $messages = []): bool
+in APPPATH\Controllers\Home.php on line 40.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-02-04 08:25:36 --> ErrorException: Declaration of App\Controllers\Home::validate() must be compatible with CodeIgniter\Controller::validate($rules, array $messages = []): bool
+in APPPATH\Controllers\Home.php on line 40.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-02-04 08:25:37 --> ErrorException: Declaration of App\Controllers\Home::validate() must be compatible with CodeIgniter\Controller::validate($rules, array $messages = []): bool
+in APPPATH\Controllers\Home.php on line 40.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-02-04 08:27:43 --> ErrorException: Declaration of App\Controllers\Home::validate() must be compatible with CodeIgniter\Controller::validate($rules, array $messages = []): bool
+in APPPATH\Controllers\Home.php on line 40.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-02-04 08:42:45 --> ErrorException: Declaration of App\Controllers\Home::validate() must be compatible with CodeIgniter\Controller::validate($rules, array $messages = []): bool
+in APPPATH\Controllers\Home.php on line 40.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-02-04 08:55:37 --> mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES)
+in APPPATH\Views\db.php on line 7.
+ 1 APPPATH\Views\db.php(7): mysqli_connect('localhost', 'root', 'testapp')
+ 2 APPPATH\Views\welcome_message.php(1): include('C:\\xampp\\htdocs\\testApp\\app\\Views\\db.php')
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\testApp\\app\\Views\\welcome_message.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('welcome_message', [], true)
+ 6 APPPATH\Controllers\Home.php(35): view('welcome_message', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\testApp\\public\\index.php')
+CRITICAL - 2024-02-04 08:56:21 --> mysqli_sql_exception: Table 'testapp.result' doesn't exist
+in APPPATH\Views\welcome_message.php on line 74.
+ 1 APPPATH\Views\welcome_message.php(74): mysqli_query(Object(mysqli), 'SELECT * FROM result')
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\testApp\\app\\Views\\welcome_message.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH\Controllers\Home.php(35): view('welcome_message', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\testApp\\public\\index.php')
+CRITICAL - 2024-02-04 08:57:15 --> ErrorException: Attempt to read property "product_id" on array
+in APPPATH\Views\welcome_message.php on line 92.
+ 1 APPPATH\Views\welcome_message.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "product_id" on array', 'C:\\xampp\\htdocs\\testApp\\app\\Views\\welcome_message.php', 92)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\testApp\\app\\Views\\welcome_message.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('welcome_message', [], true)
+ 5 APPPATH\Controllers\Home.php(35): view('welcome_message', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\testApp\\public\\index.php')
+ERROR - 2024-02-04 09:18:29 --> mysqli_sql_exception: Table 'testapp.users' doesn't exist in C:\xampp\htdocs\testApp\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\testApp\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\testApp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\testApp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\testApp\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\testApp\vendor\codeigniter4\framework\system\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\testApp\app\Models\FormModel.php(22): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\testApp\app\Controllers\FormController.php(33): App\Models\FormModel->getdata(NULL)
+#7 C:\xampp\htdocs\testApp\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\FormController->search()
+#8 C:\xampp\htdocs\testApp\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+#9 C:\xampp\htdocs\testApp\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\testApp\public\index.php(80): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\testApp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-02-04 09:18:29 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'testapp.users' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `name` IS NULL', [], false)
+ 2 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Models\FormModel.php(22): CodeIgniter\Model->__call('get', [])
+ 4 APPPATH\Controllers\FormController.php(33): App\Models\FormModel->getdata(null)
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FormController->search()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\testApp\\public\\index.php')
+CRITICAL - 2024-02-04 09:18:29 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'testapp.users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `users`
+WHERE `name` IS NULL')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `users`
+WHERE `name` IS NULL')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `name` IS NULL', [], false)
+ 4 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Models\FormModel.php(22): CodeIgniter\Model->__call('get', [])
+ 6 APPPATH\Controllers\FormController.php(33): App\Models\FormModel->getdata(null)
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FormController->search()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\testApp\\public\\index.php')
+CRITICAL - 2024-02-04 09:18:29 --> [Caused by] mysqli_sql_exception: Table 'testapp.users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `users`
+WHERE `name` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `users`
+WHERE `name` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `users`
+WHERE `name` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `name` IS NULL', [], false)
+ 5 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\FormModel.php(22): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\FormController.php(33): App\Models\FormModel->getdata(null)
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FormController->search()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\testApp\\public\\index.php')
+ERROR - 2024-02-04 09:20:38 --> mysqli_sql_exception: Unknown column 'name' in 'where clause' in C:\xampp\htdocs\testApp\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\testApp\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\testApp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\testApp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\testApp\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\testApp\vendor\codeigniter4\framework\system\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\testApp\app\Models\FormModel.php(23): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\testApp\app\Controllers\FormController.php(33): App\Models\FormModel->getdata(NULL)
+#7 C:\xampp\htdocs\testApp\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\FormController->search()
+#8 C:\xampp\htdocs\testApp\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+#9 C:\xampp\htdocs\testApp\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\testApp\public\index.php(80): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\testApp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-02-04 09:20:38 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'name' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `products`
+WHERE `name` IS NULL', [], false)
+ 2 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Models\FormModel.php(23): CodeIgniter\Model->__call('get', [])
+ 4 APPPATH\Controllers\FormController.php(33): App\Models\FormModel->getdata(null)
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FormController->search()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\testApp\\public\\index.php')
+CRITICAL - 2024-02-04 09:20:38 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'name' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `products`
+WHERE `name` IS NULL')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `products`
+WHERE `name` IS NULL')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `products`
+WHERE `name` IS NULL', [], false)
+ 4 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Models\FormModel.php(23): CodeIgniter\Model->__call('get', [])
+ 6 APPPATH\Controllers\FormController.php(33): App\Models\FormModel->getdata(null)
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FormController->search()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\testApp\\public\\index.php')
+CRITICAL - 2024-02-04 09:20:38 --> [Caused by] mysqli_sql_exception: Unknown column 'name' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `products`
+WHERE `name` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `products`
+WHERE `name` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `products`
+WHERE `name` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `products`
+WHERE `name` IS NULL', [], false)
+ 5 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\FormModel.php(23): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\FormController.php(33): App\Models\FormModel->getdata(null)
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FormController->search()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\testApp\\public\\index.php')
+ERROR - 2024-02-04 09:20:39 --> mysqli_sql_exception: Unknown column 'name' in 'where clause' in C:\xampp\htdocs\testApp\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\testApp\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\testApp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\testApp\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\testApp\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\testApp\vendor\codeigniter4\framework\system\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\testApp\app\Models\FormModel.php(23): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\testApp\app\Controllers\FormController.php(33): App\Models\FormModel->getdata(NULL)
+#7 C:\xampp\htdocs\testApp\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\FormController->search()
+#8 C:\xampp\htdocs\testApp\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+#9 C:\xampp\htdocs\testApp\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\testApp\public\index.php(80): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\testApp\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-02-04 09:20:39 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'name' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `products`
+WHERE `name` IS NULL', [], false)
+ 2 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 3 APPPATH\Models\FormModel.php(23): CodeIgniter\Model->__call('get', [])
+ 4 APPPATH\Controllers\FormController.php(33): App\Models\FormModel->getdata(null)
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FormController->search()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\testApp\\public\\index.php')
+CRITICAL - 2024-02-04 09:20:39 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'name' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `products`
+WHERE `name` IS NULL')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `products`
+WHERE `name` IS NULL')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `products`
+WHERE `name` IS NULL', [], false)
+ 4 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 5 APPPATH\Models\FormModel.php(23): CodeIgniter\Model->__call('get', [])
+ 6 APPPATH\Controllers\FormController.php(33): App\Models\FormModel->getdata(null)
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FormController->search()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\testApp\\public\\index.php')
+CRITICAL - 2024-02-04 09:20:39 --> [Caused by] mysqli_sql_exception: Unknown column 'name' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT *
+FROM `products`
+WHERE `name` IS NULL', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `products`
+WHERE `name` IS NULL')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `products`
+WHERE `name` IS NULL')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `products`
+WHERE `name` IS NULL', [], false)
+ 5 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\FormModel.php(23): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\FormController.php(33): App\Models\FormModel->getdata(null)
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FormController->search()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\testApp\\public\\index.php')
+CRITICAL - 2024-02-04 09:25:53 --> ErrorException: Undefined property: stdClass::$name
+in APPPATH\Views\search_form.php on line 11.
+ 1 APPPATH\Views\search_form.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$name', 'C:\\xampp\\htdocs\\testApp\\app\\Views\\search_form.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\testApp\\app\\Views\\search_form.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('search_form', [], true)
+ 5 APPPATH\Controllers\FormController.php(35): view('search_form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FormController->search()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\testApp\\public\\index.php')
+CRITICAL - 2024-02-04 09:26:07 --> ErrorException: Undefined property: stdClass::$name
+in APPPATH\Views\search_form.php on line 11.
+ 1 APPPATH\Views\search_form.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$name', 'C:\\xampp\\htdocs\\testApp\\app\\Views\\search_form.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\testApp\\app\\Views\\search_form.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('search_form', [], true)
+ 5 APPPATH\Controllers\FormController.php(35): view('search_form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FormController->search()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\testApp\\public\\index.php')
+CRITICAL - 2024-02-04 09:26:15 --> ErrorException: Undefined property: stdClass::$name
+in APPPATH\Views\search_form.php on line 11.
+ 1 APPPATH\Views\search_form.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$name', 'C:\\xampp\\htdocs\\testApp\\app\\Views\\search_form.php', 11)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\testApp\\app\\Views\\search_form.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('search_form', [], true)
+ 5 APPPATH\Controllers\FormController.php(35): view('search_form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FormController->search()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\testApp\\public\\index.php')
+CRITICAL - 2024-02-04 13:31:23 --> TypeError: CodeIgniter\HTTP\Request::fetchGlobal(): Argument #3 ($filter) must be of type ?int, string given, called in C:\xampp\htdocs\testApp\vendor\codeigniter4\framework\system\HTTP\IncomingRequest.php on line 765
+in SYSTEMPATH\HTTP\RequestTrait.php on line 249.
+ 1 SYSTEMPATH\HTTP\IncomingRequest.php(765): CodeIgniter\HTTP\Request->fetchGlobal('post', 'product_name', 'product_description', 'product_category')
+ 2 APPPATH\Controllers\FormController.php(30): CodeIgniter\HTTP\IncomingRequest->getPost('product_name', 'product_description', 'product_category', 'veg_non_veg', 'topping_name', 'group_name')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FormController->search()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\testApp\\public\\index.php')
+CRITICAL - 2024-02-04 13:46:37 --> TypeError: CodeIgniter\HTTP\Request::fetchGlobal(): Argument #3 ($filter) must be of type ?int, string given, called in C:\xampp\htdocs\testApp\vendor\codeigniter4\framework\system\HTTP\IncomingRequest.php on line 765
+in SYSTEMPATH\HTTP\RequestTrait.php on line 249.
+ 1 SYSTEMPATH\HTTP\IncomingRequest.php(765): CodeIgniter\HTTP\Request->fetchGlobal('post', 'product_name', 'topping_name', null)
+ 2 APPPATH\Controllers\FormController.php(30): CodeIgniter\HTTP\IncomingRequest->getPost('product_name', 'topping_name')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FormController->search()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\testApp\\public\\index.php')
+CRITICAL - 2024-02-04 14:01:54 --> ArgumentCountError: Too few arguments to function App\Models\FormModel::getdata(), 1 passed in C:\xampp\htdocs\testApp\app\Controllers\FormController.php on line 34 and exactly 2 expected
+in APPPATH\Models\FormModel.php on line 12.
+ 1 APPPATH\Controllers\FormController.php(34): App\Models\FormModel->getdata('Pepperoni Pizza')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FormController->search()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\testApp\\public\\index.php')
+CRITICAL - 2024-02-04 14:03:03 --> ArgumentCountError: Too few arguments to function App\Models\FormModel::getdata(), 1 passed in C:\xampp\htdocs\testApp\app\Controllers\FormController.php on line 34 and exactly 2 expected
+in APPPATH\Models\FormModel.php on line 12.
+ 1 APPPATH\Controllers\FormController.php(34): App\Models\FormModel->getdata('Pepperoni Pizza')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FormController->search()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\testApp\\public\\index.php')
+CRITICAL - 2024-02-04 14:05:31 --> ArgumentCountError: Too few arguments to function App\Models\FormModel::getdata(), 1 passed in C:\xampp\htdocs\testApp\app\Controllers\FormController.php on line 34 and exactly 2 expected
+in APPPATH\Models\FormModel.php on line 12.
+ 1 APPPATH\Controllers\FormController.php(34): App\Models\FormModel->getdata('Pepperoni Pizza')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FormController->search()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\testApp\\public\\index.php')
+CRITICAL - 2024-02-04 14:10:03 --> ErrorException: Cannot redeclare App\Models\FormModel::getdata()
+in APPPATH\Models\FormModel.php on line 25.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-02-04 14:25:31 --> ErrorException: Undefined property: stdClass::$topping_name
+in APPPATH\Views\search_form.php on line 71.
+ 1 APPPATH\Views\search_form.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$topping_name', 'C:\\xampp\\htdocs\\testApp\\app\\Views\\search_form.php', 71)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\testApp\\app\\Views\\search_form.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('search_form', [], true)
+ 5 APPPATH\Controllers\FormController.php(35): view('search_form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FormController->search()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\testApp\\public\\index.php')
+CRITICAL - 2024-02-04 14:25:59 --> ErrorException: Undefined property: stdClass::$topping_name
+in APPPATH\Views\search_form.php on line 71.
+ 1 APPPATH\Views\search_form.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$topping_name', 'C:\\xampp\\htdocs\\testApp\\app\\Views\\search_form.php', 71)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\testApp\\app\\Views\\search_form.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('search_form', [], true)
+ 5 APPPATH\Controllers\FormController.php(35): view('search_form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FormController->search()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\testApp\\public\\index.php')
+CRITICAL - 2024-02-04 14:26:02 --> ErrorException: Undefined property: stdClass::$topping_name
+in APPPATH\Views\search_form.php on line 71.
+ 1 APPPATH\Views\search_form.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$topping_name', 'C:\\xampp\\htdocs\\testApp\\app\\Views\\search_form.php', 71)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\testApp\\app\\Views\\search_form.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('search_form', [], true)
+ 5 APPPATH\Controllers\FormController.php(35): view('search_form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FormController->search()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\testApp\\public\\index.php')
+CRITICAL - 2024-02-04 14:26:18 --> ErrorException: Undefined property: stdClass::$topping_name
+in APPPATH\Views\search_form.php on line 71.
+ 1 APPPATH\Views\search_form.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$topping_name', 'C:\\xampp\\htdocs\\testApp\\app\\Views\\search_form.php', 71)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\testApp\\app\\Views\\search_form.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('search_form', [], true)
+ 5 APPPATH\Controllers\FormController.php(35): view('search_form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FormController->search()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\testApp\\public\\index.php')
+CRITICAL - 2024-02-04 14:27:28 --> ErrorException: Undefined property: stdClass::$topping_name
+in APPPATH\Views\search_form.php on line 71.
+ 1 APPPATH\Views\search_form.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$topping_name', 'C:\\xampp\\htdocs\\testApp\\app\\Views\\search_form.php', 71)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\testApp\\app\\Views\\search_form.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('search_form', [], true)
+ 5 APPPATH\Controllers\FormController.php(35): view('search_form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FormController->search()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\testApp\\public\\index.php')
+CRITICAL - 2024-02-04 14:27:41 --> ErrorException: Undefined property: stdClass::$toppings_name
+in APPPATH\Views\search_form.php on line 71.
+ 1 APPPATH\Views\search_form.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$toppings_name', 'C:\\xampp\\htdocs\\testApp\\app\\Views\\search_form.php', 71)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\testApp\\app\\Views\\search_form.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('search_form', [], true)
+ 5 APPPATH\Controllers\FormController.php(35): view('search_form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FormController->search()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\testApp\\public\\index.php')
+CRITICAL - 2024-02-04 14:37:15 --> ErrorException: Undefined property: stdClass::$toppings_name
+in APPPATH\Views\search_form.php on line 71.
+ 1 APPPATH\Views\search_form.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$toppings_name', 'C:\\xampp\\htdocs\\testApp\\app\\Views\\search_form.php', 71)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\testApp\\app\\Views\\search_form.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('search_form', [], true)
+ 5 APPPATH\Controllers\FormController.php(35): view('search_form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FormController->search()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\testApp\\public\\index.php')

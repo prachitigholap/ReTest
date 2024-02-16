@@ -1,0 +1,571 @@
+CRITICAL - 2024-02-15 07:20:39 --> ErrorException: Undefined variable $categorydata
+in APPPATH\Views\search_form.php on line 45.
+ 1 APPPATH\Views\search_form.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categorydata', 'C:\\xampp\\htdocs\\ReTest\\app\\Views\\search_form.php', 45)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ReTest\\app\\Views\\search_form.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('search_form', [], true)
+ 5 APPPATH\Controllers\FormController.php(33): view('search_form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FormController->categorysearch()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ReTest\\public\\index.php')
+CRITICAL - 2024-02-15 10:01:44 --> TypeError: CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in C:\xampp\htdocs\ReTest\app\Controllers\FormController.php on line 15
+in SYSTEMPATH\BaseModel.php on line 621.
+ 1 APPPATH\Controllers\FormController.php(15): CodeIgniter\BaseModel->findAll('product_category')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FormController->getProductCategories()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ReTest\\public\\index.php')
+CRITICAL - 2024-02-15 10:03:51 --> TypeError: CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in C:\xampp\htdocs\ReTest\app\Controllers\FormController.php on line 15
+in SYSTEMPATH\BaseModel.php on line 621.
+ 1 APPPATH\Controllers\FormController.php(15): CodeIgniter\BaseModel->findAll('product_category')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FormController->getProductCategories()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ReTest\\public\\index.php')
+CRITICAL - 2024-02-15 10:03:55 --> TypeError: CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in C:\xampp\htdocs\ReTest\app\Controllers\FormController.php on line 15
+in SYSTEMPATH\BaseModel.php on line 621.
+ 1 APPPATH\Controllers\FormController.php(15): CodeIgniter\BaseModel->findAll('product_category')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FormController->getProductCategories()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ReTest\\public\\index.php')
+CRITICAL - 2024-02-15 10:03:58 --> TypeError: CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in C:\xampp\htdocs\ReTest\app\Controllers\FormController.php on line 15
+in SYSTEMPATH\BaseModel.php on line 621.
+ 1 APPPATH\Controllers\FormController.php(15): CodeIgniter\BaseModel->findAll('product_category')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FormController->getProductCategories()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ReTest\\public\\index.php')
+CRITICAL - 2024-02-15 10:04:00 --> TypeError: CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in C:\xampp\htdocs\ReTest\app\Controllers\FormController.php on line 15
+in SYSTEMPATH\BaseModel.php on line 621.
+ 1 APPPATH\Controllers\FormController.php(15): CodeIgniter\BaseModel->findAll('product_category')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FormController->getProductCategories()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ReTest\\public\\index.php')
+CRITICAL - 2024-02-15 10:04:03 --> TypeError: CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in C:\xampp\htdocs\ReTest\app\Controllers\FormController.php on line 15
+in SYSTEMPATH\BaseModel.php on line 621.
+ 1 APPPATH\Controllers\FormController.php(15): CodeIgniter\BaseModel->findAll('product_category')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FormController->getProductCategories()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ReTest\\public\\index.php')
+CRITICAL - 2024-02-15 10:04:22 --> TypeError: CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in C:\xampp\htdocs\ReTest\app\Controllers\FormController.php on line 15
+in SYSTEMPATH\BaseModel.php on line 621.
+ 1 APPPATH\Controllers\FormController.php(15): CodeIgniter\BaseModel->findAll('product_category')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FormController->getProductCategories()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ReTest\\public\\index.php')
+CRITICAL - 2024-02-15 10:05:43 --> TypeError: CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in C:\xampp\htdocs\ReTest\app\Controllers\FormController.php on line 15
+in SYSTEMPATH\BaseModel.php on line 621.
+ 1 APPPATH\Controllers\FormController.php(15): CodeIgniter\BaseModel->findAll('product_category')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FormController->getProductCategories()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ReTest\\public\\index.php')
+CRITICAL - 2024-02-15 10:30:27 --> TypeError: CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in C:\xampp\htdocs\ReTest\app\Controllers\FormController.php on line 15
+in SYSTEMPATH\BaseModel.php on line 621.
+ 1 APPPATH\Controllers\FormController.php(15): CodeIgniter\BaseModel->findAll('product_category')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FormController->getProductCategories()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ReTest\\public\\index.php')
+CRITICAL - 2024-02-15 10:34:54 --> TypeError: CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in C:\xampp\htdocs\ReTest\app\Controllers\FormController.php on line 15
+in SYSTEMPATH\BaseModel.php on line 621.
+ 1 APPPATH\Controllers\FormController.php(15): CodeIgniter\BaseModel->findAll('product_category')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FormController->getProductCategories()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ReTest\\public\\index.php')
+CRITICAL - 2024-02-15 10:35:13 --> TypeError: CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in C:\xampp\htdocs\ReTest\app\Controllers\FormController.php on line 15
+in SYSTEMPATH\BaseModel.php on line 621.
+ 1 APPPATH\Controllers\FormController.php(15): CodeIgniter\BaseModel->findAll('product_category')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FormController->getProductCategories()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ReTest\\public\\index.php')
+CRITICAL - 2024-02-15 10:35:29 --> TypeError: CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in C:\xampp\htdocs\ReTest\app\Controllers\FormController.php on line 15
+in SYSTEMPATH\BaseModel.php on line 621.
+ 1 APPPATH\Controllers\FormController.php(15): CodeIgniter\BaseModel->findAll('product_category')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FormController->getProductCategories()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ReTest\\public\\index.php')
+ERROR - 2024-02-15 11:05:24 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\ReTest\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\ReTest\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'testapp', 3306, '', 0)
+#1 C:\xampp\htdocs\ReTest\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\ReTest\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\ReTest\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ReTest\vendor\codeigniter4\framework\system\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ReTest\app\Models\FormModel.php(16): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\ReTest\app\Controllers\FormController.php(23): App\Models\FormModel->getdata(NULL)
+#7 C:\xampp\htdocs\ReTest\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\FormController->search()
+#8 C:\xampp\htdocs\ReTest\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+#9 C:\xampp\htdocs\ReTest\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ReTest\public\index.php(80): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ReTest\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\ReTest\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\ReTest\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\ReTest\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ReTest\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\ReTest\vendor\codeigniter4\framework\system\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\ReTest\app\Models\FormModel.php(16): CodeIgniter\Model->__call('get', Array)
+#5 C:\xampp\htdocs\ReTest\app\Controllers\FormController.php(23): App\Models\FormModel->getdata(NULL)
+#6 C:\xampp\htdocs\ReTest\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\FormController->search()
+#7 C:\xampp\htdocs\ReTest\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+#8 C:\xampp\htdocs\ReTest\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ReTest\public\index.php(80): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ReTest\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-02-15 11:05:24 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `merged`
+WHERE `product_name` IS NULL', [], false)
+ 3 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Models\FormModel.php(16): CodeIgniter\Model->__call('get', [])
+ 5 APPPATH\Controllers\FormController.php(23): App\Models\FormModel->getdata(null)
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FormController->search()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ReTest\\public\\index.php')
+ERROR - 2024-02-15 11:05:37 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\ReTest\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\ReTest\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'testapp', 3306, '', 0)
+#1 C:\xampp\htdocs\ReTest\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\ReTest\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\ReTest\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ReTest\vendor\codeigniter4\framework\system\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ReTest\app\Models\FormModel.php(16): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\ReTest\app\Controllers\FormController.php(23): App\Models\FormModel->getdata(NULL)
+#7 C:\xampp\htdocs\ReTest\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\FormController->search()
+#8 C:\xampp\htdocs\ReTest\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+#9 C:\xampp\htdocs\ReTest\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ReTest\public\index.php(80): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\ReTest\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\ReTest\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\ReTest\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\ReTest\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ReTest\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\ReTest\vendor\codeigniter4\framework\system\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\ReTest\app\Models\FormModel.php(16): CodeIgniter\Model->__call('get', Array)
+#5 C:\xampp\htdocs\ReTest\app\Controllers\FormController.php(23): App\Models\FormModel->getdata(NULL)
+#6 C:\xampp\htdocs\ReTest\vendor\codeigniter4\framework\system\CodeIgniter.php(941): App\Controllers\FormController->search()
+#7 C:\xampp\htdocs\ReTest\vendor\codeigniter4\framework\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+#8 C:\xampp\htdocs\ReTest\vendor\codeigniter4\framework\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ReTest\public\index.php(80): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\ReTest\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2024-02-15 11:05:37 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `merged`
+WHERE `product_name` IS NULL', [], false)
+ 3 SYSTEMPATH\Model.php(872): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Models\FormModel.php(16): CodeIgniter\Model->__call('get', [])
+ 5 APPPATH\Controllers\FormController.php(23): App\Models\FormModel->getdata(null)
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FormController->search()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ReTest\\public\\index.php')
+CRITICAL - 2024-02-15 11:05:54 --> TypeError: CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in C:\xampp\htdocs\ReTest\app\Controllers\FormController.php on line 15
+in SYSTEMPATH\BaseModel.php on line 621.
+ 1 APPPATH\Controllers\FormController.php(15): CodeIgniter\BaseModel->findAll('product_category')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FormController->getProductCategories()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ReTest\\public\\index.php')
+CRITICAL - 2024-02-15 11:06:04 --> TypeError: CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in C:\xampp\htdocs\ReTest\app\Controllers\FormController.php on line 15
+in SYSTEMPATH\BaseModel.php on line 621.
+ 1 APPPATH\Controllers\FormController.php(15): CodeIgniter\BaseModel->findAll('product_category')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FormController->getProductCategories()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ReTest\\public\\index.php')
+CRITICAL - 2024-02-15 11:06:34 --> TypeError: CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in C:\xampp\htdocs\ReTest\app\Controllers\FormController.php on line 15
+in SYSTEMPATH\BaseModel.php on line 621.
+ 1 APPPATH\Controllers\FormController.php(15): CodeIgniter\BaseModel->findAll('product_category')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FormController->getProductCategories()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ReTest\\public\\index.php')
+CRITICAL - 2024-02-15 11:06:41 --> TypeError: CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in C:\xampp\htdocs\ReTest\app\Controllers\FormController.php on line 15
+in SYSTEMPATH\BaseModel.php on line 621.
+ 1 APPPATH\Controllers\FormController.php(15): CodeIgniter\BaseModel->findAll('product_category')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FormController->getProductCategories()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ReTest\\public\\index.php')
+CRITICAL - 2024-02-15 11:20:47 --> ErrorException: Undefined variable $categories
+in APPPATH\Views\search_form.php on line 112.
+ 1 APPPATH\Views\search_form.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories', 'C:\\xampp\\htdocs\\ReTest\\app\\Views\\search_form.php', 112)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ReTest\\app\\Views\\search_form.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('search_form', [], true)
+ 5 APPPATH\Controllers\FormController.php(32): view('search_form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FormController->search()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ReTest\\public\\index.php')
+CRITICAL - 2024-02-15 11:21:30 --> ErrorException: Undefined variable $categories
+in APPPATH\Views\search_form.php on line 112.
+ 1 APPPATH\Views\search_form.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories', 'C:\\xampp\\htdocs\\ReTest\\app\\Views\\search_form.php', 112)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ReTest\\app\\Views\\search_form.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('search_form', [], true)
+ 5 APPPATH\Controllers\FormController.php(32): view('search_form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FormController->search()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ReTest\\public\\index.php')
+CRITICAL - 2024-02-15 11:21:32 --> ErrorException: Undefined variable $categories
+in APPPATH\Views\search_form.php on line 112.
+ 1 APPPATH\Views\search_form.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories', 'C:\\xampp\\htdocs\\ReTest\\app\\Views\\search_form.php', 112)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ReTest\\app\\Views\\search_form.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('search_form', [], true)
+ 5 APPPATH\Controllers\FormController.php(32): view('search_form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FormController->search()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ReTest\\public\\index.php')
+CRITICAL - 2024-02-15 11:21:33 --> ErrorException: Undefined variable $categories
+in APPPATH\Views\search_form.php on line 112.
+ 1 APPPATH\Views\search_form.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories', 'C:\\xampp\\htdocs\\ReTest\\app\\Views\\search_form.php', 112)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ReTest\\app\\Views\\search_form.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('search_form', [], true)
+ 5 APPPATH\Controllers\FormController.php(32): view('search_form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FormController->search()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ReTest\\public\\index.php')
+CRITICAL - 2024-02-15 11:21:35 --> ErrorException: Undefined variable $categories
+in APPPATH\Views\search_form.php on line 112.
+ 1 APPPATH\Views\search_form.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories', 'C:\\xampp\\htdocs\\ReTest\\app\\Views\\search_form.php', 112)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ReTest\\app\\Views\\search_form.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('search_form', [], true)
+ 5 APPPATH\Controllers\FormController.php(32): view('search_form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FormController->search()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ReTest\\public\\index.php')
+CRITICAL - 2024-02-15 11:21:37 --> ErrorException: Undefined variable $categories
+in APPPATH\Views\search_form.php on line 112.
+ 1 APPPATH\Views\search_form.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories', 'C:\\xampp\\htdocs\\ReTest\\app\\Views\\search_form.php', 112)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ReTest\\app\\Views\\search_form.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('search_form', [], true)
+ 5 APPPATH\Controllers\FormController.php(32): view('search_form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FormController->search()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ReTest\\public\\index.php')
+CRITICAL - 2024-02-15 11:23:47 --> ErrorException: Undefined variable $categories
+in APPPATH\Views\search_form.php on line 112.
+ 1 APPPATH\Views\search_form.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories', 'C:\\xampp\\htdocs\\ReTest\\app\\Views\\search_form.php', 112)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ReTest\\app\\Views\\search_form.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('search_form', [], true)
+ 5 APPPATH\Controllers\FormController.php(32): view('search_form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FormController->search()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ReTest\\public\\index.php')
+CRITICAL - 2024-02-15 11:24:01 --> ErrorException: Undefined variable $categories
+in APPPATH\Views\search_form.php on line 112.
+ 1 APPPATH\Views\search_form.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories', 'C:\\xampp\\htdocs\\ReTest\\app\\Views\\search_form.php', 112)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ReTest\\app\\Views\\search_form.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('search_form', [], true)
+ 5 APPPATH\Controllers\FormController.php(32): view('search_form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FormController->search()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ReTest\\public\\index.php')
+CRITICAL - 2024-02-15 12:18:26 --> Error: Cannot use object of type stdClass as array
+in APPPATH\Views\search_form.php on line 113.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('search_form', [], true)
+ 4 APPPATH\Controllers\FormController.php(42): view('search_form', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FormController->categorysearch()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ReTest\\public\\index.php')
+CRITICAL - 2024-02-15 19:15:48 --> ErrorException: Undefined variable $i
+in APPPATH\Views\search_form.php on line 112.
+ 1 APPPATH\Views\search_form.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $i', 'C:\\xampp\\htdocs\\ReTest\\app\\Views\\search_form.php', 112)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ReTest\\app\\Views\\search_form.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('search_form', [], true)
+ 5 APPPATH\Controllers\FormController.php(31): view('search_form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FormController->search()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ReTest\\public\\index.php')
+CRITICAL - 2024-02-15 19:22:56 --> ErrorException: Undefined variable $idata
+in APPPATH\Views\search_form.php on line 112.
+ 1 APPPATH\Views\search_form.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $idata', 'C:\\xampp\\htdocs\\ReTest\\app\\Views\\search_form.php', 112)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ReTest\\app\\Views\\search_form.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('search_form', [], true)
+ 5 APPPATH\Controllers\FormController.php(36): view('search_form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FormController->search()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ReTest\\public\\index.php')
+CRITICAL - 2024-02-15 19:23:10 --> ErrorException: Undefined variable $idata
+in APPPATH\Views\search_form.php on line 112.
+ 1 APPPATH\Views\search_form.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $idata', 'C:\\xampp\\htdocs\\ReTest\\app\\Views\\search_form.php', 112)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ReTest\\app\\Views\\search_form.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('search_form', [], true)
+ 5 APPPATH\Controllers\FormController.php(36): view('search_form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FormController->search()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ReTest\\public\\index.php')
+CRITICAL - 2024-02-15 19:26:03 --> ErrorException: Undefined variable $idata
+in APPPATH\Views\search_form.php on line 112.
+ 1 APPPATH\Views\search_form.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $idata', 'C:\\xampp\\htdocs\\ReTest\\app\\Views\\search_form.php', 112)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ReTest\\app\\Views\\search_form.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('search_form', [], true)
+ 5 APPPATH\Controllers\FormController.php(36): view('search_form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FormController->search()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ReTest\\public\\index.php')
+CRITICAL - 2024-02-15 19:26:05 --> ErrorException: Undefined variable $idata
+in APPPATH\Views\search_form.php on line 112.
+ 1 APPPATH\Views\search_form.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $idata', 'C:\\xampp\\htdocs\\ReTest\\app\\Views\\search_form.php', 112)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ReTest\\app\\Views\\search_form.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('search_form', [], true)
+ 5 APPPATH\Controllers\FormController.php(36): view('search_form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FormController->search()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ReTest\\public\\index.php')
+CRITICAL - 2024-02-15 19:27:56 --> ErrorException: Undefined variable $idata
+in APPPATH\Views\search_form.php on line 112.
+ 1 APPPATH\Views\search_form.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $idata', 'C:\\xampp\\htdocs\\ReTest\\app\\Views\\search_form.php', 112)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ReTest\\app\\Views\\search_form.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('search_form', [], true)
+ 5 APPPATH\Controllers\FormController.php(37): view('search_form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FormController->search()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ReTest\\public\\index.php')
+CRITICAL - 2024-02-15 19:29:36 --> ErrorException: Undefined variable $idata
+in APPPATH\Views\search_form.php on line 112.
+ 1 APPPATH\Views\search_form.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $idata', 'C:\\xampp\\htdocs\\ReTest\\app\\Views\\search_form.php', 112)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ReTest\\app\\Views\\search_form.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('search_form', [], true)
+ 5 APPPATH\Controllers\FormController.php(36): view('search_form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FormController->search()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ReTest\\public\\index.php')
+CRITICAL - 2024-02-15 19:31:43 --> Error: Call to undefined function getProductCategories()
+in APPPATH\Views\search_form.php on line 113.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('search_form', [], true)
+ 4 APPPATH\Controllers\FormController.php(36): view('search_form', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FormController->search()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ReTest\\public\\index.php')
+CRITICAL - 2024-02-15 19:37:37 --> TypeError: CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in C:\xampp\htdocs\ReTest\app\Controllers\FormController.php on line 15
+in SYSTEMPATH\BaseModel.php on line 621.
+ 1 APPPATH\Controllers\FormController.php(15): CodeIgniter\BaseModel->findAll('product_category')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FormController->getProductCategories()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ReTest\\public\\index.php')
+CRITICAL - 2024-02-15 19:37:41 --> TypeError: CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in C:\xampp\htdocs\ReTest\app\Controllers\FormController.php on line 15
+in SYSTEMPATH\BaseModel.php on line 621.
+ 1 APPPATH\Controllers\FormController.php(15): CodeIgniter\BaseModel->findAll('product_category')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FormController->getProductCategories()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ReTest\\public\\index.php')
+CRITICAL - 2024-02-15 19:37:54 --> TypeError: CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in C:\xampp\htdocs\ReTest\app\Controllers\FormController.php on line 15
+in SYSTEMPATH\BaseModel.php on line 621.
+ 1 APPPATH\Controllers\FormController.php(15): CodeIgniter\BaseModel->findAll('product_category')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FormController->getProductCategories()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ReTest\\public\\index.php')
+CRITICAL - 2024-02-15 19:38:05 --> TypeError: CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in C:\xampp\htdocs\ReTest\app\Controllers\FormController.php on line 15
+in SYSTEMPATH\BaseModel.php on line 621.
+ 1 APPPATH\Controllers\FormController.php(15): CodeIgniter\BaseModel->findAll('product_category')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FormController->getProductCategories()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ReTest\\public\\index.php')
+CRITICAL - 2024-02-15 19:41:35 --> TypeError: CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in C:\xampp\htdocs\ReTest\app\Controllers\FormController.php on line 15
+in SYSTEMPATH\BaseModel.php on line 621.
+ 1 APPPATH\Controllers\FormController.php(15): CodeIgniter\BaseModel->findAll('product_category')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FormController->getProductCategories()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ReTest\\public\\index.php')
+CRITICAL - 2024-02-15 19:41:40 --> TypeError: CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in C:\xampp\htdocs\ReTest\app\Controllers\FormController.php on line 15
+in SYSTEMPATH\BaseModel.php on line 621.
+ 1 APPPATH\Controllers\FormController.php(15): CodeIgniter\BaseModel->findAll('product_category')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FormController->getProductCategories()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ReTest\\public\\index.php')
+CRITICAL - 2024-02-15 19:42:06 --> ErrorException: Undefined variable $veg_non_veg
+in APPPATH\Models\FormModel.php on line 37.
+ 1 APPPATH\Models\FormModel.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $veg_non_veg', 'C:\\xampp\\htdocs\\ReTest\\app\\Models\\FormModel.php', 37)
+ 2 APPPATH\Controllers\FormController.php(46): App\Models\FormModel->getcategorydata('Pizza')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FormController->categorysearch()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ReTest\\public\\index.php')
+CRITICAL - 2024-02-15 19:44:06 --> TypeError: CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in C:\xampp\htdocs\ReTest\app\Controllers\FormController.php on line 15
+in SYSTEMPATH\BaseModel.php on line 621.
+ 1 APPPATH\Controllers\FormController.php(15): CodeIgniter\BaseModel->findAll('product_category')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FormController->getProductCategories()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ReTest\\public\\index.php')
+CRITICAL - 2024-02-15 19:44:15 --> TypeError: CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in C:\xampp\htdocs\ReTest\app\Controllers\FormController.php on line 15
+in SYSTEMPATH\BaseModel.php on line 621.
+ 1 APPPATH\Controllers\FormController.php(15): CodeIgniter\BaseModel->findAll('product_category')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FormController->getProductCategories()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ReTest\\public\\index.php')
+CRITICAL - 2024-02-15 19:44:18 --> TypeError: CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in C:\xampp\htdocs\ReTest\app\Controllers\FormController.php on line 15
+in SYSTEMPATH\BaseModel.php on line 621.
+ 1 APPPATH\Controllers\FormController.php(15): CodeIgniter\BaseModel->findAll('product_category')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FormController->getProductCategories()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ReTest\\public\\index.php')
+CRITICAL - 2024-02-15 19:44:22 --> TypeError: CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in C:\xampp\htdocs\ReTest\app\Controllers\FormController.php on line 15
+in SYSTEMPATH\BaseModel.php on line 621.
+ 1 APPPATH\Controllers\FormController.php(15): CodeIgniter\BaseModel->findAll('product_category')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FormController->getProductCategories()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ReTest\\public\\index.php')
+CRITICAL - 2024-02-15 20:01:54 --> TypeError: CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in C:\xampp\htdocs\ReTest\app\Controllers\FormController.php on line 15
+in SYSTEMPATH\BaseModel.php on line 621.
+ 1 APPPATH\Controllers\FormController.php(15): CodeIgniter\BaseModel->findAll('product_category')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FormController->getProductCategories()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ReTest\\public\\index.php')
+CRITICAL - 2024-02-15 20:02:01 --> TypeError: CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in C:\xampp\htdocs\ReTest\app\Controllers\FormController.php on line 15
+in SYSTEMPATH\BaseModel.php on line 621.
+ 1 APPPATH\Controllers\FormController.php(15): CodeIgniter\BaseModel->findAll('product_category')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FormController->getProductCategories()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ReTest\\public\\index.php')
+CRITICAL - 2024-02-15 20:07:47 --> TypeError: CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in C:\xampp\htdocs\ReTest\app\Controllers\FormController.php on line 15
+in SYSTEMPATH\BaseModel.php on line 621.
+ 1 APPPATH\Controllers\FormController.php(15): CodeIgniter\BaseModel->findAll('product_category')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FormController->getProductCategories()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ReTest\\public\\index.php')
+CRITICAL - 2024-02-15 20:07:53 --> TypeError: CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in C:\xampp\htdocs\ReTest\app\Controllers\FormController.php on line 15
+in SYSTEMPATH\BaseModel.php on line 621.
+ 1 APPPATH\Controllers\FormController.php(15): CodeIgniter\BaseModel->findAll('product_category')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FormController->getProductCategories()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ReTest\\public\\index.php')
+CRITICAL - 2024-02-15 20:10:52 --> TypeError: CodeIgniter\BaseModel::findAll(): Argument #1 ($limit) must be of type int, string given, called in C:\xampp\htdocs\ReTest\app\Controllers\FormController.php on line 15
+in SYSTEMPATH\BaseModel.php on line 621.
+ 1 APPPATH\Controllers\FormController.php(15): CodeIgniter\BaseModel->findAll('product_category')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FormController->getProductCategories()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ReTest\\public\\index.php')
+CRITICAL - 2024-02-15 20:55:37 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "form_result.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('form_result.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('form_result', [], true)
+ 3 APPPATH\Controllers\FormController.php(23): view('form_result', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FormController->handleGetForm()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FormController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(80): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\ReTest\\public\\index.php')
